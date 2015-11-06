@@ -3,7 +3,7 @@ public class Listing_4_16_1411 {
 		
 		char letter = generateRandomCharacter();
 		
-		testGenerateRandomCharacter();
+		//testGenerateRandomCharacter();
 	
 		System.out.print("\nHowdy\n");
 		System.out.println(letter);
