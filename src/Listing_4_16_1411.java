@@ -2,8 +2,6 @@ public class Listing_4_16_1411 {
 	public static void main(String[] args) {
 		
 		char letter = generateRandomCharacter();
-		
-		//testGenerateRandomCharacter();
 	
 		System.out.print("\nHowdy\n");
 		System.out.println(letter);
@@ -27,24 +25,5 @@ public class Listing_4_16_1411 {
 		return letterRandom;
 		
 	}
-	public static void testGenerateRandomCharacter(){
-		
-		for (int i = 65; i<=90; i++){
-			System.out.println("\nOur letter is: " + (char)i);
-			boolean haveAMatch = false;
-			while(!haveAMatch){
-				int letter = generateRandomCharacter();
-				System.out.print((char)letter);
-				
-				if(letter == i){
-					haveAMatch = true;
-				}
-				
-			}
-			
-		}
-		
-		
-		
-	}
+	
 }
